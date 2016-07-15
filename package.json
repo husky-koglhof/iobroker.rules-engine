@@ -1,0 +1,44 @@
+{
+  "name": "iobroker.rules-engine",
+  "description": "Rules Engine for ioBroker Installations",
+  "version": "0.0.5",
+  "engines" : { 
+	"node" : ">=0.12" 
+  },
+  "author": {
+    "name": "husky-koglhof",
+    "email": "husky.koglhof@icloud.com"
+  },
+  "contributors": [
+    "versteckt <husky.koglhof@icloud.com>"
+  ],
+  "dependencies": {
+    "node-blockly": "^.0.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-replace": "^0.9.3",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-jscs": "^2.0.0",
+    "grunt-http": "^1.6.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-exec": "^0.4.6"
+  },
+  "homepage": "https://github.com/husky-koglhof/ioBroker.rules-engine",
+  "license": "MIT",
+  "keywords": ["ioBroker", "monitoring", "rules", "query"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/husky-koglhof/ioBroker.rules-engine"
+  },
+  "os": [
+    "linux"
+  ],
+  "bugs": {
+    "url": "https://github.com/husky-koglhof/ioBroker.rules-engine/issues"
+  },
+  "main": "main.js",
+  "readmeFilename": "README.md"
+}
